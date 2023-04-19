@@ -1,6 +1,6 @@
 # Los codificadores 💻
 
-<div style='position:relative; padding-bottom:calc(74.19% + 44px)'><iframe src='https://gfycat.com/ifr/FrigidLightheartedBoa' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p> <a href="https://gfycat.com/frigidlightheartedboa">via Gfycat</a></p>
+![FrigidLightheartedBoa](https://user-images.githubusercontent.com/112900063/233207538-2dab292b-afd2-41c3-b069-85eb0a79279a.gif)
 
 Grupo de la Tecnicatura Universitaria en Programación de la Universidad Tecnológica Nacional.
 
