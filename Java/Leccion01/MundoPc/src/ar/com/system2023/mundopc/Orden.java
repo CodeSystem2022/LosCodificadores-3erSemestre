@@ -13,5 +13,10 @@ public class Orden {
         this.idOrden = ++Orden.contadorOrdenes;
         this.computadora = new Computadora[Orden.MAX_COMPUTADORAS];
     }
+    public void agregarComputadora(Computadora computadora){
+        if(this.contadorComputadora < Orden.MAX_COMPUTADORAS){
+            this.computadora[this.contadorComputadora++] = computadora;
+        }
+    }
     
 }
