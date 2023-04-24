@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ar.com.system2023.mundopc;
 
-/**
- *
- * @author torto
- */
+
 public class Orden {
+    private final int idOrden;
+    private Computadora computadora[];
+    private static int contadorOrdenes;
+    private static final int MAX_COMPUTADORAS = 10;
+    private int contadorCoputadora;
+    
+    public Orden(){
+        this.idOrden = ++Orden.contadorOrdenes;
+        this.computadora = new Computadora[Orden.MAX_COMPUTADORAS];
+    }
     
 }
