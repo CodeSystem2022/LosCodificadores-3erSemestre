@@ -17,6 +17,7 @@ Grupo de la Tecnicatura Universitaria en Programación de la Universidad Tecnol�
 | **Número de semana** | **Scrum Master** |
 | ---- | ---- |
 | 📄 semana 1 | *Agustín Vera* |
+| 📄 semana 2 | *Cecilia Iribarren* |
 
 ---
 ⌨️ con ❤️ por [Los Codificadores](https://github.com/orgs/CodeSystem2022/teams/los-codificadores/members) 😊
