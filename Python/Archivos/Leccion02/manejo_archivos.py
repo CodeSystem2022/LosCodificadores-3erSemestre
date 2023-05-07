@@ -1,6 +1,6 @@
 # Declaramos una variable
 try:
-    archivo = open('prueba.txt','w') #la w es de write, escribir
+    archivo = open('prueba.txt','w', encoding='utf8') #la w es de write, escribir
     archivo.write('Programamos con diferentes tipos de archivos, ahora en txt.\n')
     archivo.write('los acentos son importantes para las palabras\n')
     archivo.write('Como por ejemplo: acción, ejecución y producción\n')
@@ -12,4 +12,4 @@ except Exception as e:
     print(e)
 finally: # Siempre se ejecuta
     archivo.close() # Con esto se debe cerrar el archivo
-   # archivo.write('todo quedo perfecto'): este es un error
+# archivo.write('todo quedo perfecto'): este es un error
