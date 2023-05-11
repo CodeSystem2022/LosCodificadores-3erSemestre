@@ -1,0 +1,25 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>336</x><y>152</y><w>168</w><h>96</h></coordinates><panel_attributes>&lt;&lt;Pelicula&gt;&gt;
+--
+-nombre: str
+--
++ __str__()
+--
+Responsabilidades
+--Representar un objeto película</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>280</x><y>96</y><w>528</w><h>352</h></coordinates><panel_attributes>catalogo_peliculas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>328</x><y>120</y><w>192</w><h>144</h></coordinates><panel_attributes>dominio</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>568</x><y>120</y><w>200</w><h>168</h></coordinates><panel_attributes>servicio</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>584</x><y>152</y><w>168</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Catalogo peliculas&gt;&gt;
+--
+-ruta_archivo: str &lt;&lt;static&gt;&gt;
+--
++ agregar_pelicula(Pelicula)&lt;&lt;static&gt;&gt;
++ listar_peliculas()&lt;&lt;static&gt;&gt;
++ eliminar()&lt;&lt;static&gt;&gt;
+--
+Responsabilidades
+--Realizar las operaciones sobre
+ el archivo de peliculas.txt</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>464</x><y>328</y><w>168</w><h>96</h></coordinates><panel_attributes>test_catalogo_peliculas.py
+--
+Responsabilidades:
+--Contiene un menu con 4 opciones:
+	1) Agregar pelicula
+	2) Listar peliculas
+	3) Eliminar archivo de peliculas
+	4) Salir</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>496</x><y>184</y><w>104</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10;80;10</additional_attributes></element></diagram>
