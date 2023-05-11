@@ -17,4 +17,6 @@ except Exception as e:              # La clase más general al final.
 else:                               # Es opcional. Se ejecuta si no lo hace ninguna excepción.
     print('No se arrojó ninguna excepción')
 finally:                            # Se ejecuta siempre.
-    
+    print('Ejecución del bloque finally')
+print(f'El resutado es: {resultado}')
+print('Seguimos...')
