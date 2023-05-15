@@ -11,3 +11,15 @@ except ZeroDivisionError as e:
 except Exception as e:  # Clase padre Exception
     print(f'Ha ocurrido un error: {e} - Exception')
     #Output: Ha ocurrido un error: division by zero
+
+# Procesamiento de excepciones
+resultado = None
+a = 10
+b = 0
+try:
+    resultado = a / b  # modificamos
+except Exception as e:
+    print(f'Ocurrió un error: {e}')
+
+print(f'El resultado es: {resultado}')
+print('seguimos...')
