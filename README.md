@@ -14,9 +14,21 @@ Grupo de la Tecnicatura Universitaria en Programación de la Universidad Tecnol�
 * **Daiana Raya** - [daianaraya](https://github.com/daianaraya)
 * **Agustín Vera** - [agustinvera25](https://github.com/agustinvera25)
 
-| **Número de semana** | **Scrum Master** |
-| ---- | ---- |
-| 📄 semana 1 | *Agustín Vera* |
+
+| **Semana** | **Scrum Master** | **Anotaciones** |  |  | 
+| ---- | ---- | --- | --- | --- | 
+| **1** | *Agustin Vera* | **SEMANA INCOMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
+| | **JAVA** | Creamos clase Monitor | :x: Daiana Raya | :heavy_check_mark: Cecilia Iribarren | 
+| | | Creamos clase Computadora | :x: Nicolas Aranibar | :heavy_check_mark: Agustin Vera |
+| | | Comenzamos las pruebas creando objetos... | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
+| | **JAVASCRIPT** | Ciclo Do while | :x: Daiana Raya | :heavy_check_mark: Cecilia Iribarren | 
+| | | Palabra reservada continue | :x: Nicolas Aranibar | :heavy_check_mark: Agustin Vera |
+| | | Ciclo For | :x: Agustin Arenas | :heavy_check_mark: Agustin Vera |
+| | **PYTHON** | Procesamiento de excepciones | :x: Nicolas Aranibar |  :heavy_check_mark: Cecilia Iribarren |
+| | | Mas procesamiento de excepciones | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
+| **2** | *Cecilia Iribarren* | **EN PROCESO** |
+| **3** | *Giuliana Gaffoglio* | **EN PROCESO** |
+
 
 ---
 ⌨️ con ❤️ por [Los Codificadores](https://github.com/orgs/CodeSystem2022/teams/los-codificadores/members) 😊
