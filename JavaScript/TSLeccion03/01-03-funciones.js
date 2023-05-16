@@ -33,8 +33,10 @@ function cambiarValorObjeto(p1){
 cambiarValorObjeto(persona);
 console.log(persona);
 
-
-
+//Funciones Flecha
+const sumarFuncionFlecha = (a, b) => a + b ;
+resultado = sumarFuncionFlecha(3, 7) //asignamos el valor a una variable
+console.log(resultado); 10
 
 
 
