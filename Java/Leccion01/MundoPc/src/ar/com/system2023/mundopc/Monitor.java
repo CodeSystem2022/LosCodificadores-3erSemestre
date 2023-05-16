@@ -1,14 +1,52 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
+//Video 4: Creamos la clase Monitor
 package ar.com.system2023.mundopc;
 
-/**
- *
- * @author Fiore
- */
-class Monitor {
+
+public class Monitor {//No extiende de ninguna otra clase
+    //Atributos
+    private final int idMonitor;
+    private String marca;
+    private double tamanio;
+    private static int contadorMonitores;
+    
+    //Constructor vacío
+    private Monitor(){
+        this.idMonitor = ++Monitor.contadorMonitores;
+    }
+    //Constructor Público
+    public Monitor(String marca, double tamanio){
+        this();//llamado al constructor vacío
+        this.marca = marca;
+        this.tamanio = tamanio;
+    }
+//Getters and Setters de marca y tamanio
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public double getTamanio() {
+        return this.tamanio;
+    }
+
+    public void setTamanio(double tamanio) {
+        this.tamanio = tamanio;
+    }
+//Ingresamos manualmente el getIdMonitor
+    public int getIdMonitor(){
+        return this.idMonitor;
+    }
+
+    @Override
+    public String toString() {
+        return "Monitor{" + "idMonitor=" + idMonitor + ", marca=" + marca + ", tamanio=" + tamanio + '}';
+    }
     
 }
+
+   
+
