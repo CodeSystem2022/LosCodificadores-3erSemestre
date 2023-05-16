@@ -7,13 +7,6 @@ function miFuncion(a, b){
 //Llamado la funcion
 miFuncion(5, 4);
 
-function miFuncion(a, b){
-    
-    return a + b;
-}
-
-
-
 
 let resultado = miFuncion(6, 7);
 console.log(resultado)
@@ -46,14 +39,6 @@ console.log(persona);
 
 
 
-
-
-
-
-
-
-
-
 // Funcion de tipo expresion
 let sumar = function (a = 4, b = 8){
     console.log(arguments[0]); // muestra el parametro de: a
@@ -62,7 +47,6 @@ let sumar = function (a = 4, b = 8){
 }
 resultado = sumar(3, 2, 9);
 console.log(resultado);
-
 
 //Sumar todos los argumentos
 let respuesta = sumarTodo (5, 4, 13, 10, 9);
@@ -74,22 +58,6 @@ function sumarTodo(){
     }
     return suma;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //Tipos primitivos
 let k = 10;
