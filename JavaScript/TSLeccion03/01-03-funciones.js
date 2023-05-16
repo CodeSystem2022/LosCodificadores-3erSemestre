@@ -18,8 +18,11 @@ function miFuncion(a, b){
 let resultado = miFuncion(6, 7);
 console.log(resultado)
 
-
-
+//Video 3: Funciones de tipo expresión
+//Declaramos una función de tipo expresión o anónima
+let x = function(a,b){return a+b}; //necesita cierre con punto y coma ;
+resultado = x(5,6); //al llamarla se pone la variable y parentesis
+console.log(resultado);
 
 
 
