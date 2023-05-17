@@ -27,3 +27,11 @@ console.log(autos);
 //Tercera forma de agreagr elementos teniendo CUIDADO
 autos[6] = 'Renault';
 console.log(autos);
+
+// como preguntar si es un arreglo
+console.log(Array.isArray(autos)); // devuelve un booleano
+
+comsole.log(autos instanceof Array); //preguntamos si la variable es una instancia de la clase array
+
+
+
