@@ -1,19 +1,21 @@
 package domain;
 
-
+        
 public class Persona {
     private final int idPersona;
     private static int contadorPersonas;
     
-    static{//Bloque de inicializacion estatico
-        System.out.println("Ejecucion del bloque estatico");
+    // Bloque de inicialización estático (antes del constructor y de otro no estático):
+    static{
+        System.out.println("Ejecucion del bloque estático");    // Para 'verlo'.
         ++Persona.contadorPersonas;
-        //idPersona = 10; No es estatico un artibuto, por esto tenemos un error
+        // idPersona no es un atributo estático, por lo que aquí daría un error.
     }
     
-    {//Bloque de inicializaion NO estatico(contexto dinamico)
+    // Bloque de inicialización no estático (contexto dinámico):
+    {
         System.out.println("Ejecucion del bloque NO estatico");
-        this.idPersona = Persona.contadorPersonas++; // Incrementamos el atributo
+        this.idPersona = Persona.contadorPersonas++;            // Incremento del atributo.
     }
     
     //Los bloques de inicializacion se ejecutan antes del constructor
