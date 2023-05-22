@@ -10,3 +10,7 @@ let persona = {
 }
 
 console.log(persona.nombre);
+console.log(persona.apellido);
+console.log(persona.email);
+console.log(persona.edad);
+console.log(persona)
