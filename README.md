@@ -27,7 +27,9 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | | **PYTHON** | Procesamiento de excepciones | :x: Nicolas Aranibar |  :heavy_check_mark: Cecilia Iribarren |
 | | | Mas procesamiento de excepciones | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
 | **2** | *Cecilia Iribarren* | **EN PROCESO** |
-| **3** | *Giuliana Gaffoglio* | **EN PROCESO** |
+| **3** | *Giuliana Gaffoglio* | **SEMANA INCOMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
+| | **JAVA** |Manejo del ForEach parte 1 |:heavy_check_mark: Giuliana Gaffoglio
+| | |Manejo del ForEach parte 2 |:heavy_check_mark: Agustin Vera
 
 
 ---
