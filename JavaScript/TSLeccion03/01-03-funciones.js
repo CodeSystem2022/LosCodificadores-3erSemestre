@@ -23,27 +23,21 @@ console.log('Ejecutando la funcion: '+ (a + b));
 })(9, 6);
 
 
-//Video 10: Paso por referencia
-const persona = {
-    nombre: 'Juan',
-    apellido: 'Lepez'
-}
-console.log(persona);
-function cambiarValorObjeto(p1){
-    p1.nombre = 'Ignacio';
-    p1.apellido = 'Perez';
+console.log(typeof miFuncion);
+function miFuncionDos(a, b){
+    console.log(arguments.length);
 }
 
-cambiarValorObjeto(persona);
-console.log(persona);
+miFuncionDos(5, 7, 3, 6);
+
+// toString
+var miFuncionTexto = miFuncionDos.toString(); // convierte la funcion a texto
+console.log(miFuncionTexto);
 
 //Funciones Flecha
 const sumarFuncionFlecha = (a, b) => a + b ;
 resultado = sumarFuncionFlecha(3, 7) //asignamos el valor a una variable
 console.log(resultado); 10
-
-
-
 
 // Funcion de tipo expresion
 let sumar = function (a = 4, b = 8){
@@ -73,3 +67,17 @@ function cambiarValor(a){ //Paso por valor, la variable pasada a la funcion no s
 
 cambiarValor(k)
 console.log(k)
+
+//Video 10: Paso por referencia
+const persona = {
+    nombre: 'Juan',
+    apellido: 'Lepez'
+}
+console.log(persona);
+function cambiarValorObjeto(p1){
+    p1.nombre = 'Ignacio';
+    p1.apellido = 'Perez';
+}
+
+cambiarValorObjeto(persona);
+console.log(persona);
