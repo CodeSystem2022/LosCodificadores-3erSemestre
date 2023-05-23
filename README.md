@@ -28,30 +28,11 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | | | Mas procesamiento de excepciones | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
 | **2** | *Cecilia Iribarren* | **EN PROCESO** |
 | **3** | *Giuliana Gaffoglio* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
-| | **JAVA** |Manejo del ForEach parte 1 |:heavy_check_mark: Giuliana Gaffoglio | 
-| | | Manejo del ForEach parte 2 |:heavy_check_mark: Agustin Vera | 
-| | | Autoboxing y Unboxing Parte 1 |:heavy_check_mark: Cecilia Iribarren | 
-| | | Autoboxing y Unboxing Parte 2 | :x: Nicolas Aranibar | :heavy_check_mark: Giuliana Gaffoglio |
+| | **JAVA** | Autoboxing y Unboxing Parte 2 | :x: Nicolas Aranibar | :heavy_check_mark: Giuliana Gaffoglio |
 | | | Modificadores de acceso public | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
-| | | Modificadores de acceso protected |:heavy_check_mark: Cecilia Iribarren |
-| | | Modificadores de acceso default o package |:heavy_check_mark: Guillermo Quinteros |
 | | | Modificadores de acceso private | :x: Nicolas Aranibar | :heavy_check_mark: Giuliana Gaffoglio |
-| | **JAVASCRIPT** | Introduccion a funciones |:heavy_check_mark: Giuliana Gaffoglio | 
-| | | Palabra return |:heavy_check_mark: Agustin Vera | 
-| | | Funciones de tipo expresion |:heavy_check_mark: Cecilia Iribarren | 
-| | | Funciones de tipo self y involking |:heavy_check_mark: Nicolas Aranibar | 
-| | | Tipos de datos en una funcion | :x: Guillermo Quinteros | :heavy_check_mark: Giuliana Gaffoglio |
-| | | Funciones flecha |:heavy_check_mark: Agustin Arenas |
-| | | Argumentos y parametros |:heavy_check_mark: Giuliana Gaffoglio | 
-| | | Concepto hoisting |:heavy_check_mark: Giuliana Gaffoglio | 
-| | | Paso por valor |:heavy_check_mark: Agustin Vera | 
-| | | Paso por referencia |:heavy_check_mark: Cecilia Iribarren | 
-| | **PYTHON** | Laboratorio Final: Catalogo de Peliculas |:heavy_check_mark: Agustin Vera |
-| | | Creacion de la clase: Pelicula |:heavy_check_mark: Giuliana Gaffoglio |
-| | | Creacion de la clase: catalogo_peliculas |:heavy_check_mark: Cecilia Iribarren | 
-| | | Creacion de: test_catalogo_peliculas |:heavy_check_mark: Guillermo Quinteros | 
-| | | Comenzamos con las pruebas parte 1 |:heavy_check_mark: Agustin Arenas | 
-| | |Comenzamos con las pruebas parte 2 |:heavy_check_mark: Nicolas Aranibar | 
+| | **JAVASCRIPT** | Tipos de datos en una funcion | :x: Guillermo Quinteros | :heavy_check_mark: Giuliana Gaffoglio |
+ 
 
 
 
