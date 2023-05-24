@@ -15,7 +15,10 @@ console.log(persona.email);
 console.log(persona.edad);
 console.log(persona)
 
-
+//AGREGAR O ELIMINAR PROPIEDADES DE LOS OBJETOS
+persona.apellida = 'Betancud'; //Cambiamos dinamicamente el valor de un objeto
+delete persona.apellida; //Eliminamos el error
+console.log(persona);
 
 
 

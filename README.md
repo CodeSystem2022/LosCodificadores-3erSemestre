@@ -27,7 +27,19 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | | **PYTHON** | Procesamiento de excepciones | :x: Nicolas Aranibar |  :heavy_check_mark: Cecilia Iribarren |
 | | | Mas procesamiento de excepciones | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
 | **2** | *Cecilia Iribarren* | **EN PROCESO** |
-| **3** | *Giuliana Gaffoglio* | **EN PROCESO** |
+| **3** | *Giuliana Gaffoglio* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
+| | **JAVA** | Autoboxing y Unboxing Parte 2 | :x: Nicolas Aranibar | :heavy_check_mark: Giuliana Gaffoglio |
+| | | Modificadores de acceso public | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
+| | | Modificadores de acceso private | :x: Nicolas Aranibar | :heavy_check_mark: Giuliana Gaffoglio |
+| | **JAVASCRIPT** | Tipos de datos en una funcion | :x: Guillermo Quinteros | :heavy_check_mark: Giuliana Gaffoglio |
+ 
+
+
+
+
+
+
+
 
 
 ---
