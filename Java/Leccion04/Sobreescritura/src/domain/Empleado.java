@@ -10,7 +10,7 @@ public class Empleado {
     }
     
     //Método para la sobreescritura
-    public String obtenerDetalles(){
+    public String obtenerDetalles(){//método no puede ser más restrictivo
         return "Nombre: " + this.nombre + ", Sueldo: $" + this.sueldo;
     }
 
