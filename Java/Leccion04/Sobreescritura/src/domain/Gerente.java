@@ -10,7 +10,7 @@ public class Gerente extends Empleado{
     }
     //Sobreescribimso el metodo
     @Override
-    public String obtenerDetalles(){
+    public String obtenerDetalles(){//no podemos cambiar su modificador de acceso
         return super.obtenerDetalles()+", Departamento: "+this.departamento;
     }
 }
