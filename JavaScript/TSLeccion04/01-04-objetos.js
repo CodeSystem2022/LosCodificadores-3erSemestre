@@ -94,6 +94,7 @@ console.log(personaString)
 
 
 
+
 //Diferentes formas de crear objetos
 //Caso numero 1
 let miObjeto = new Object() //Esta es una opcion formal
@@ -137,10 +138,12 @@ let miFuncion2 = function(){}; //Sintaxis simplificada y recomendada
 
 //Uso de call
 let persona4 = {
-    nombre: "Juan",
-    apellido: "Perez",
+
+    nombre: 'Juan',
+    apellida: 'Perez',
     nombreCompleto2: function(titulo, telefono){
-        return titulo + ': ' + this.nombre + ' ' + this.apellido + ' ' + telefono
+        return titulo+': '+this.nombre+' '+this.apellido+' '+telefono;
+        //return this.nombre+' '+this.apellido;
     }
 }
 
@@ -151,3 +154,10 @@ let persona5 = {
 
 console.log(persona4.nombreCompleto2('Lic', '1321312312312'))
 console.log(persona4.nombreCompleto2.call(persona5, 'Ing', '123124543534'))
+
+console.log(persona4.nombreCompleto2('Lic.', '2635484545'));
+
+
+//Metodo Apply
+let arreglo =['Ing.', '547895662'];
+console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
