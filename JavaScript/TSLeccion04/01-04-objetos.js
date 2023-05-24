@@ -60,3 +60,98 @@ console.log(personaArray)
 console.log("Distintas formas de imprimir un objeto: forma 4")
 let personaString = JSON.stringify(persona);
 console.log(personaString)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Uso de call
+let persona4 = {
+    nombre: 'Juan',
+    apellida: 'Perez',
+    nombreCompleto2: function(titulo, telefono){
+        return titulo+': '+this.nombre+' '+this.apellido+' '+telefono;
+        //return this.nombre+' '+this.apellido;
+    }
+}
+
+
+
+
+
+console.log(persona4.nombreCompleto2('Lic.', '2635484545'));
+
+
+//Metodo Apply
+let arreglo =['Ing.', '547895662'];
+console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
+
+
