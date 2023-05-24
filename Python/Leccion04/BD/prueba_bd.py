@@ -1,3 +1,11 @@
+
+# INSTALACION DEL MODULO  POSTGRESQL
+# Creamos nueva carpeta: Leccion04
+# Dentro creamos otra carpeta BD. Create
+# Instalamos la libreria de postgresql
+# Click en terminal
+# Escribimos pip install psycopg2 + enter
+
 import psycopg2 #Esto es para conectarnos a postgres
 
 conexion = psycopg2.connect(
