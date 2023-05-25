@@ -26,7 +26,8 @@ Grupo de la Tecnicatura Universitaria en Programación de la Universidad Tecnol�
 | | | Ciclo For | :x: Agustin Arenas | :heavy_check_mark: Agustin Vera |
 | | **PYTHON** | Procesamiento de excepciones | :x: Nicolas Aranibar |  :heavy_check_mark: Cecilia Iribarren |
 | | | Mas procesamiento de excepciones | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
-| **2** | *Cecilia Iribarren* | **EN PROCESO** |
+| **2** | *Cecilia Iribarren* | **SEMANA COMPLETA** |**ASIGNADO A**| **REASIGNADO A** |
+| | **JAVA** | Manejo de bloque de códigos | :x: Daiana Raya | :heavy_check_mark: Giuliana Gaffoglio | 
 | **3** | *Giuliana Gaffoglio* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
 | | **JAVA** | Autoboxing y Unboxing Parte 2 | :x: Nicolas Aranibar | :heavy_check_mark: Giuliana Gaffoglio |
 | | | Modificadores de acceso public | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
