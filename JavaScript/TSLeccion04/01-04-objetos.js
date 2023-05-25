@@ -75,6 +75,28 @@ console.log(personaString)
 
 
 
+//VIDEO 3: CONSTRUCTORES DE OBJETOS(CLASE 5){
+
+
+            
+            
+//Agregamos Métodos al constructor del objeto(Video 4)
+    this.nombreCompleto = function(){
+        return this.nombre+' '+this.apellido;
+    }
+}
+
+ 
+
+
+
+
+
+
+
+
+//Mostramos el objeto padre utilizando la funcion (Video 4)
+console.log(padre.nombreCompleto()); //Utilizamos la funcion
 
 
 
@@ -85,20 +107,8 @@ console.log(personaString)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Mostramos objeto madre utilizando la funcion(video 4)
+console.log(madre.nombreCompleto());
 
 //Diferentes formas de crear objetos
 //Caso numero 1
