@@ -1,3 +1,4 @@
+
 package domain;
 
 public abstract class FiguraGeometrica {
@@ -7,10 +8,10 @@ public abstract class FiguraGeometrica {
         this.tipoFigura = tipoFigura;
     }
     
-    //Metodo abstracto
+    // Método abstracto
     public abstract void dibujar();
     
-    //Agregamos get y set
+    // Se agregan get y set
 
     public String getTipoFigura() {
         return this.tipoFigura;
