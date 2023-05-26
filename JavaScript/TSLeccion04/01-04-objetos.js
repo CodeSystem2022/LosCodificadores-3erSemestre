@@ -6,7 +6,20 @@ let persona = {
     nombre: "Carlos",
     apellido: "Gil",
     email: "cgil@gmail.com",
-    edad: 30
+    edad: 28,
+    idioma: 'es',
+    get lang() {
+    return this.idioma.toUppercase();
+    },
+    set lang(lang) {
+        this.this.idioma = lang.toUppercase();
+    },
+   
+
+    
+    get nombreEdad() {
+    return 'El nombre es: '+this.nombre+', Edad: '+this.edad;
+    }
 }
 
 console.log(persona.nombre);
@@ -61,11 +74,12 @@ console.log("Distintas formas de imprimir un objeto: forma 4")
 let personaString = JSON.stringify(persona);
 console.log(personaString)
 
+console.log('Comenzamos a utilizar el método get');
+console.log(persona.nombreEdad);
 
-
-
-
-
+console.log('Comenzamos con el método get y set para idiomas');
+persona.lang = 'en';
+console.log(persona.lang);
 
 
 
