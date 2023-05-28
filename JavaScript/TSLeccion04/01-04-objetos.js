@@ -14,12 +14,11 @@ let persona = {
     set lang(lang) {
         this.this.idioma = lang.toUppercase();
     },
-   
-
-    
     get nombreEdad() {
     return 'El nombre es: '+this.nombre+', Edad: '+this.edad;
     }
+    nombreCompleto: function(){ //metodo o funcion de Js
+        return this.nombre+' '+this.apellido
 }
 
 console.log(persona.nombre);
@@ -27,11 +26,14 @@ console.log(persona.apellido);
 console.log(persona.email);
 console.log(persona.edad);
 console.log(persona)
+console.log(persona.nombreCompleto());Carlos Gil
+
 
 //AGREGAR O ELIMINAR PROPIEDADES DE LOS OBJETOS
 persona.apellida = 'Betancud'; //Cambiamos dinamicamente el valor de un objeto
 delete persona.apellida; //Eliminamos el error
 console.log(persona);
+}
 
 
 

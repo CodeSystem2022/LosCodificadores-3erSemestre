@@ -2,7 +2,7 @@ from dominio.Pelicula import Pelicula
 from servicio.Catalogo_Peliculas import CatalogoPeliculas as cp
 
 opcion = None
-while opcion != 4: 
+while opcion != 4:
     try:
         print('Opciones: ')
         print('1. Agregar pelicula')
