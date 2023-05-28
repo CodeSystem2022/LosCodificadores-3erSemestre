@@ -6,7 +6,9 @@ let persona = {
     nombre: "Carlos",
     apellido: "Gil",
     email: "cgil@gmail.com",
-    edad: 30
+    edad: 30, 
+    nombreCompleto: function(){ //metodo o funcion de Js
+        return this.nombre+' '+this.apellido
 }
 
 console.log(persona.nombre);
@@ -14,11 +16,14 @@ console.log(persona.apellido);
 console.log(persona.email);
 console.log(persona.edad);
 console.log(persona)
+console.log(persona.nombreCompleto());Carlos Gil
+
 
 //AGREGAR O ELIMINAR PROPIEDADES DE LOS OBJETOS
 persona.apellida = 'Betancud'; //Cambiamos dinamicamente el valor de un objeto
 delete persona.apellida; //Eliminamos el error
 console.log(persona);
+}
 
 
 
