@@ -39,6 +39,11 @@ Grupo de la Tecnicatura Universitaria en Programación de la Universidad Tecnol�
 | | | Ejercicio con instanceof Parte 1 y 2 | :x: Nicolas Aranibar | :heavy_check_mark: Agustin Vera |
 | | **JAVASCRIPT** | Diferentes formas de crear un Objeto | :x: Guillermo Quinteros | :heavy_check_mark: Cecilia Iribarren |
 | | | Cómo acceder a las propiedades de los Objetos | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
+| **5** | *Agustin Vera* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
+| | **JAVA** | Hashcode y equals  | :x: Agustin Arenas | :heavy_check_mark: Agustin Vera |
+| | **JAVASCRIPT** | El uso de prototype | :x: Agustin Arenas | :heavy_check_mark: Nicolas Aranibar |
+| | **PYTHON** | Actualizar o modificar varios registros  | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
+| | | Insertar un registro con psycopg2  | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
  
 
 
