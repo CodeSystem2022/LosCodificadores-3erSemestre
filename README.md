@@ -17,7 +17,7 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 
 | **Semana** | **Scrum Master** | **Anotaciones** |  |  | 
 | ---- | ---- | --- | --- | --- | 
-| **1** | *Agustin Vera* | **SEMANA INCOMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
+| **1** | *Agustin Vera* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
 | | **JAVA** | Creamos clase Monitor | :x: Daiana Raya | :heavy_check_mark: Cecilia Iribarren | 
 | | | Creamos clase Computadora | :x: Nicolas Aranibar | :heavy_check_mark: Agustin Vera |
 | | | Comenzamos las pruebas creando objetos... | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
@@ -33,6 +33,17 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | | | Modificadores de acceso public | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
 | | | Modificadores de acceso private | :x: Nicolas Aranibar | :heavy_check_mark: Giuliana Gaffoglio |
 | | **JAVASCRIPT** | Tipos de datos en una funcion | :x: Guillermo Quinteros | :heavy_check_mark: Giuliana Gaffoglio |
+| **4** | *Agustin Vera* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
+| | **JAVA** | Polimorfismo paso a paso | :x: Guillermo Quinteros | :heavy_check_mark: Giuliana Gaffoglio |
+| | | Instance of Parte 1 y 2 | :x: Agustin Arenas | :heavy_check_mark: Agustin Vera |
+| | | Ejercicio con instanceof Parte 1 y 2 | :x: Nicolas Aranibar | :heavy_check_mark: Agustin Vera |
+| | **JAVASCRIPT** | Diferentes formas de crear un Objeto | :x: Guillermo Quinteros | :heavy_check_mark: Cecilia Iribarren |
+| | | C√≥mo acceder a las propiedades de los Objetos | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
+| **5** | *Agustin Vera* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** |
+| | **JAVA** | Hashcode y equals  | :x: Agustin Arenas | :heavy_check_mark: Agustin Vera |
+| | **JAVASCRIPT** | El uso de prototype | :x: Agustin Arenas | :heavy_check_mark: Nicolas Aranibar |
+| | **PYTHON** | Actualizar o modificar varios registros  | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
+| | | Insertar un registro con psycopg2  | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
  
 
 
