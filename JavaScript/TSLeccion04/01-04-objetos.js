@@ -37,25 +37,20 @@ persona2.direccion = 'Salada 14';
 persona2.telefono = '5492618282821'
 console.log(persona2.telefono);
 
+//COMO ACCEDER A LAS PROPIEDADES DE LOS OBJETOS
+console.log(persona['apellido']); //Accedemos como si fuera un arreglo
 
+//for in y accedemos al objeto como si fuera un arreglo
 
-
-
-
-
-
-
-
-
-
-
-
+for(propiedad in persona){
+    console.log(propiedad);
+    console.log(persona[propiedad]);
+}
 //AGREGAR O ELIMINAR PROPIEDADES DE LOS OBJETOS
 persona.apellida = 'Betancud'; //Cambiamos dinamicamente el valor de un objeto
 delete persona.apellida; //Eliminamos el error
 console.log(persona);
 }
-
 
 //Distintas formas de imprimir un objeto
 //Numero 1: la mas sencilla, concatenar cada valor de cada propiedad
@@ -84,6 +79,7 @@ console.log(persona.nombreEdad);
 console.log('Comenzamos con el método get y set para idiomas');
 persona.lang = 'en';
 console.log(persona.lang);
+
 
 
 
