@@ -1,5 +1,7 @@
 import psycopg2 #Esto es para conectarnos a postgres
 
+#Recordar realizar la configuracion de postgres para una mejor lectura de los errores Clase 6.1 parte 1 y 2
+
 conexion = psycopg2.connect(user = 'postgres', password = 'admin', host = '127.0.0.1', port = '5432', database = 'test_bd')
 
 try:
