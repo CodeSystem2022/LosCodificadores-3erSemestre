@@ -1,24 +1,24 @@
-#INSERTAR VARIOS REGISTROS
+# INSTALACION DEL MODULO  POSTGRESQL
+# Creamos nueva carpeta: Leccion04
+# Dentro creamos otra carpeta BD. Create
+# Instalamos la libreria de postgresql
+# Click en terminal
+# Escribimos pip install psycopg2 + enter
 
-import psycopg2  # Esto es para poder  conectarnos a Postgre
+import psycopg2 # Esto es para poder conectarnos a Postgre
 
-conexion = psycopg2.connect(user='postgres', password='Admin', host='127.0.0.1', port='5432', database='test_bd')
-
+conexion = psycopg2.connect(user= 'postgres', password= 'admin', host= '127.0.01', port= '5432', database= 'test_bd')
 try:
     with conexion:
-        with conexion.cursor() as cursor:
-            sentencia = 'INSERT INTO persona (nombre, apellido, email) VALUES(%s, %s, %s)'
-            valores = (
-                ('Carlos', 'Lara', 'clara@mail.com'),
-                ('Marcos', 'Canto', 'mcanto@mail.com'),
-                ('Marcelo', 'Cuenca', 'cuencaM@mail.com')
-            ) # es una tupla de tuplas
-            # conexion.commit() esto se utiliza para guardar los cambios en la BD
-            cursor.executemany(sentencia, valores)  # De esta manera ejecutamos la sentencia
-            registros_insertados = cursor.rowcount  # Recuperamos todos los registros que serán una lista
-            print(f'Los registros insertados son: {registros_insertados}')
+        with conexion.cursor()as cursor:
+        sentencia = 'SELECT * FROM persona WHERE id_persona IN %s' # Placeholder
+        entrada = input('Digite los id_persona a buscar (separadas por coma): ')
+        llaves_primarias = (tuple(entrada.split(', ')),)
+        cursor.execute(sentencia, (id_persona,))# De esta manera ejecutamos la sentencia
+        registros = cursor.fetchone() # Recuperamos todos los registros que seran una lista
+        for registro in registros:
+            print(registros)
 except Exception as e:
-    print(f'Ocurrió un error: {e}')
+    print(f'Ocurrio un error: {e}')
 finally:
-
     conexion.close()
