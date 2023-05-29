@@ -28,31 +28,33 @@ console.log(persona.edad);
 console.log(persona)
 console.log(persona.nombreCompleto());Carlos Gil
 
+//DIFERENTES FORMAS DE CREAR UN OBJETO
+
+
+let persona2 = new Object(); //Debe crear un nuevo objeto en memoria
+persona2.nombre = 'Juan';
+persona2.direccion = 'Salada 14';
+persona2.telefono = '5492618282821'
+console.log(persona2.telefono);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //AGREGAR O ELIMINAR PROPIEDADES DE LOS OBJETOS
 persona.apellida = 'Betancud'; //Cambiamos dinamicamente el valor de un objeto
 delete persona.apellida; //Eliminamos el error
 console.log(persona);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //Distintas formas de imprimir un objeto
