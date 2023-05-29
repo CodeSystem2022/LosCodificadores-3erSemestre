@@ -27,6 +27,30 @@ console.log(persona.nombre);
 console.log(persona.apellido);
 console.log(persona.email);
 console.log(persona.edad);
+console.log(persona)
+console.log(persona.nombreCompleto());Carlos Gil
+
+//DIFERENTES FORMAS DE CREAR UN OBJETO
+
+
+let persona2 = new Object(); //Debe crear un nuevo objeto en memoria
+persona2.nombre = 'Juan';
+persona2.direccion = 'Salada 14';
+persona2.telefono = '5492618282821'
+console.log(persona2.telefono);
+
+//COMO ACCEDER A LAS PROPIEDADES DE LOS OBJETOS
+console.log(persona['apellido']); //Accedemos como si fuera un arreglo
+
+//for in y accedemos al objeto como si fuera un arreglo
+
+for(propiedad in persona){
+    console.log(propiedad);
+    console.log(persona[propiedad]);
+}
+//AGREGAR O ELIMINAR PROPIEDADES DE LOS OBJETOS
+persona.apellida = 'Betancud'; //Cambiamos dinamicamente el valor de un objeto
+delete persona.apellida; //Eliminamos el error
 console.log(persona);
 console.log(persona.nombreCompleto());
 console.log('Ejecutando con un objeto');
@@ -77,6 +101,7 @@ console.log(persona.nombreEdad);
 console.log('Comenzamos con el metodo get y set para idiomas');
 persona.lang = 'en';
 console.log(persona.lang);
+
 
 function Persona3(nombre, apellido, email){ //constructor
     this.nombre = nombre;
