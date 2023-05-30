@@ -84,3 +84,16 @@ nombreCompleto(){
 
 
 console.log(empleado1.nombreCompleto());
+
+
+class Empleado extends Persona{ //Clase hija
+    constructor(departamento){
+        this._departamento = departamento;
+    }
+    get departamento(){
+        return this._departamento
+    }
+    set departamento(departamento){
+        this._departamento = departamento;
+    }
+}
