@@ -44,7 +44,7 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | | **JAVASCRIPT** | El uso de prototype | :x: Agustin Arenas | :heavy_check_mark: Nicolas Aranibar |
 | | **PYTHON** | Actualizar o modificar varios registros  | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
 | | | Insertar un registro con psycopg2  | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
-| **6** | *Agustin Vera* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** | 
+| **6** | *Giuliana Gaffoglio* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** | 
 | | **JAVASCRIPT** |Herencia parte 2 | :x: Agustin Arenas | :heavy_check_mark: Nicolas Aranibar |
 
 
