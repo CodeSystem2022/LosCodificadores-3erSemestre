@@ -7,6 +7,10 @@ try:
     sentencia = 'INSER INTO persona(nombre, apellido, email) VALUES (%s, %s, %s)'
     valores = ('Maria', 'Esparza' 'mesparza@mail.com')
     cursor.execute(sentencia, valores)
+    sentencia = 'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
+    valores = ('Juan Carlos', 'Perez' 'JCPerez@mail.com', 1)
+    cursor.execute(sentencia, valores)
+
     conexion.commit()# Hacemos el commit manualmente
     print('Termina la transaccion')
 except Exception as e:
