@@ -53,11 +53,11 @@ console.log(persona2.apellido);
 
 
 
-nombreCompleto(){
+nombreCompleto(); {
    return this._nombre+' '+this._apellido;
 }
 
-}
+
 
 
 
