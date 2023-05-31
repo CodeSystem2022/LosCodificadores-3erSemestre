@@ -1,5 +1,5 @@
 
-let persona3 = new Persona('Carla', 'Ponce');
+// let persona3 = new Persona('Carla', 'Ponce'); esto no se debe hacer: Persona is not defined.
 
 class Persona{ //Clase padre
     constructor(nombre, apellido){
