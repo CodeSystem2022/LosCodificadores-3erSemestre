@@ -57,12 +57,25 @@ class Empleado extends Persona{ //Clase hija
         this._departamento = departamento;
     }
     get departamento(){
-        return this._departamento
+        return this._departamento;
     }
     set departamento(departamento){
         this._departamento = departamento;
     }
+
+//Sobreescritura
+nombreCompleto(){
+    return super.nombreCompleto()+' ,'+this._departamento;
 }
+
+
+
+
+
+
+
+}
+
 
 let empleado1 = new Empleado('Maria', 'Gimenez', 'Sistemas');
 console.log(empleado1);
