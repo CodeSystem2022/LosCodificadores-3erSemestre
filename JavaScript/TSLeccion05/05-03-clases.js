@@ -3,6 +3,21 @@ class Persona{ //Clase padre
         this._nombre = nombre;
         this._apellido = apellido;
     }
+    get nombre(){
+        return this._nombre;
+    }
+
+    set nombre(nombre){
+        this._nombre = nombre;
+    }
+
+    get apellido(){
+        return this._apellido;
+    }
+
+    set apellido(apellido){
+        this._apellido = apellido;
+    }
 }
 
 let persona1 = new Persona('Martin', 'Perez');
@@ -17,6 +32,14 @@ nombreCompleto();{
 
 toString(){ //REGRESA UN string
     return this.nombreCompleto();
+}
+
+static saludar(){
+    console.log('Saludos desde este método static');
+}
+
+static saludar2(persona){
+    console.log(persona.nombre);
 }
 
 console.log(empleado1.nombreCompleto());
@@ -40,3 +63,7 @@ nombreCompleto(){
 }
 // Object.prototype.toString Esta es la manera de acceder a atributos y metodos de manera dinamica
 console.log(empleado1.toString()); 
+
+//persona1.saludar(); no se utiliza desde el objeto
+Persona.saludar();
+Persona.saludar2(persona1);
