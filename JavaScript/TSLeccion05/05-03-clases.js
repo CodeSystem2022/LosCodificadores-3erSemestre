@@ -39,7 +39,7 @@ static saludar(){
 }
 
 static saludar2(persona){
-    console.log(persona.nombre);
+    console.log(persona.nombre+' '+persona.apellido);
 }
 
 console.log(empleado1.nombreCompleto());
@@ -67,3 +67,6 @@ console.log(empleado1.toString());
 //persona1.saludar(); no se utiliza desde el objeto
 Persona.saludar();
 Persona.saludar2(persona1);
+
+Empleado.saludar();
+Empleado.saludar2(empleado1);
