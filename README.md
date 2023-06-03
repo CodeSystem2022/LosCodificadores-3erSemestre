@@ -46,7 +46,8 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | | | Insertar un registro con psycopg2  | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
 | **6** | *Giuliana Gaffoglio* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** | 
 | | **JAVASCRIPT** |Herencia parte 2 | :x: Agustin Arenas | :heavy_check_mark: Nicolas Aranibar |
-
+| **7** | *Giuliana Gaffoglio* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** | 
+| | **JAVASCRIPT** |Manejo de Interfaces parte 3 | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
 
 
 
