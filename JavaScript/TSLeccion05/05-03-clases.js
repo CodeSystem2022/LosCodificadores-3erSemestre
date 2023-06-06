@@ -1,3 +1,5 @@
+
+
 class Persona{ //Clase padre
 
     static contadorObjetosPersona = 0; //Atributo estatico
@@ -9,6 +11,7 @@ class Persona{ //Clase padre
         Persona.contadorObjetosPersona++;
         console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona)
     }
+
     get nombre(){
         return this._nombre;
     }
@@ -24,82 +27,65 @@ class Persona{ //Clase padre
     set apellido(apellido){
         this._apellido = apellido;
     }
+
+    nombreCompleto(){
+        return this._nombre+' '+this._apellido;
+    }
+
+    toString(){ //REGRESA UN string
+        
+        
+        return this.nombreCompleto();
+    }
+    
+    static saludar(){
+        console.log('Saludos desde este método static');
+    }
+    
+    static saludar2(persona){
+        console.log(persona.nombre+' '+persona.apellido);
+    }
+    
 }
-
-let persona1 = new Persona('Martin', 'Perez');
-console.log(persona1);
-let persona2 = new Persona('Carlos', 'Lara');
-console.log(persona2);
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-nombreCompleto(); {
-   return this._nombre+' '+this._apellido;
-}
-
-
-
-
-
-
-
-
-=======
-=======
->>>>>>> main
-nombreCompleto();{
-    return this._nombre+' '+this._apellido;
-}
-
-<<<<<<< HEAD
->>>>>>> main
-=======
-toString(){ //REGRESA UN string
-    return this.nombreCompleto();
-}
->>>>>>> main
-
-static saludar(){
-    console.log('Saludos desde este método static');
-}
-
-static saludar2(persona){
-    console.log(persona.nombre+' '+persona.apellido);
-}
-
-console.log(empleado1.nombreCompleto());
-
 
 class Empleado extends Persona{ //Clase hija
     constructor(nombre, apellido, departamento){
         super(nombre, apellido);
         this._departamento = departamento;
     }
+
     get departamento(){
         return this._departamento;
     }
+
     set departamento(departamento){
         this._departamento = departamento;
     }
 
-//Sobreescritura
-nombreCompleto(){
-    return super.nombreCompleto()+' ,'+this._departamento;
+    //Sobreescritura
+    nombreCompleto(){
+        return super.nombreCompleto()+' ,'+this._departamento;
+    }
 }
+
+let persona1 = new Persona('Martin', 'Perez');
+console.log(persona1);
+
+
+
+let persona2 = new Persona('Carlos', 'Lara');
+console.log(persona2);
+
+
+
+
+
+
+console.log(empleado1.nombreCompleto());
+
 // Object.prototype.toString Esta es la manera de acceder a atributos y metodos de manera dinamica
 console.log(empleado1.toString()); 
+
 
 //persona1.saludar(); no se utiliza desde el objeto
 Persona.saludar();
