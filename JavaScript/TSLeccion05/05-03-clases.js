@@ -101,3 +101,10 @@ console.log(Empleado.contadorObjetosPersona)
 console.log(persona1.email);
 console.log(empleado1.email);
 //console.log(Persona.email); No puede acceder desde la clase
+console.log(persona1.toString());
+console.log(persona2.toString());
+console.log(empleado1.toString());
+console.log(persona.contadorObjetosPersona);
+let persona3 = new Persona('Carla', 'Pertosi');
+console.log(persona3.toString());
+console.log(persona.contadorObjetosPersona);
