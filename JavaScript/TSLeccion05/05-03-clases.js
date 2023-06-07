@@ -5,9 +5,19 @@ class Persona{ //Clase padre
     static contadorObjetosPersona = 0; //Atributo estatico
     email = 'Valor default email'; //Atributo no estatico
 
+    static get MAX_OBJ(){//Este método simula una constante
+        return 5;
+    }
+
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
+        if(Persona.contadorPersonas < Persona.MAX_OBJ){
+            this.idPersona = ++Persona.contadorPersonas;
+        }
+        else{
+            console.log('Se ha superado el máximo de objetos permitidos');
+        }
         Persona.contadorObjetosPersona++;
         console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona)
     }
@@ -77,10 +87,6 @@ let persona2 = new Persona('Carlos', 'Lara');
 console.log(persona2);
 
 
-
-
-
-
 console.log(empleado1.nombreCompleto());
 
 // Object.prototype.toString Esta es la manera de acceder a atributos y metodos de manera dinamica
@@ -93,21 +99,6 @@ Persona.saludar2(persona1);
 
 Empleado.saludar();
 Empleado.saludar2(empleado1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -125,3 +116,12 @@ console.log(persona.contadorObjetosPersona);
 let persona3 = new Persona('Carla', 'Pertosi');
 console.log(persona3.toString());
 console.log(persona.contadorObjetosPersona);
+
+console.log(Persona.MAX_OBJ);
+// Persona.MAX_OBJ = 10; no se puede modificar, ni alterar
+console.log(Persona.MAX_OBJ);
+
+let persona4 = new Persona('Franco', 'Diaz');
+console.log(persona4.toString());
+let persona5 = new Persona('Liliana', 'Paz');
+console.log(persona5.toString());
