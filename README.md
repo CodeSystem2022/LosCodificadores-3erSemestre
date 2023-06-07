@@ -48,6 +48,11 @@ Grupo de la Tecnicatura Universitaria en Programación de la Universidad Tecnol�
 | | **JAVASCRIPT** |Herencia parte 2 | :x: Agustin Arenas | :heavy_check_mark: Nicolas Aranibar |
 | **7** | *Giuliana Gaffoglio* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** | 
 | | **JAVA** |Manejo de Interfaces parte 3 | :x: Agustin Arenas | :heavy_check_mark: Giuliana Gaffoglio |
+| **8** | *Cecilia Iribarren* | **SEMANA COMPLETA** | **ASIGNADO A**| **REASIGNADO A** | 
+| | **JAVA** |Agregamos finally y cathc | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarrren |
+| | **JAVASCRIPT** |Creación de constantes estáticas | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
+| | **PYTHON** | Comienzo de la creación clase personaDAO  | :x: Agustin Arenas | :heavy_check_mark: Nicolás Aranibar |
+
 
 
 

@@ -1,6 +1,6 @@
 package accesodatos;
 
-public class ImplementacionOracle implements IAccessoDatos{
+public class ImplementacionOracle implements IAccesoDatos{
     @Override
     public void insertar(){
         System.out.println("Insertar desde Oracle");
