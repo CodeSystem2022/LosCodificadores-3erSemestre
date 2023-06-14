@@ -25,7 +25,6 @@ public class CalculadoraUTN {
             } // Fin catch
         } // Fin while
     } // Fin main
-
     private static void mostrarMenu(){
         // Mostramos el menú
         System.out.println("""
@@ -36,14 +35,15 @@ public class CalculadoraUTN {
                 5. Salir
                 """);
         System.out.print("Operación a realizar? ");
-    } // Fin método mostrarMenu
+    } 
+    // Fin método mostrarMenu
 
     private static void ejecutarOperacion(int operacion, Scanner entrada){
         System.out.print("Digite el valor para el operando1: ");
-        var operando1 = Integer.parseInt((entrada.nextLine()));
+        var operando1 = Double.parDouble((entrada.nextLine()));
         System.out.print("Digite el valor para el operando2: ");
-        var operando2 = Integer.parseInt((entrada.nextLine()));
-        int resultado;
+        var operando2 = Double.parDouble((entrada.nextLine()));
+        Double resultado;
         switch(operacion){
             case 1 -> {     // Suma
                 resultado = operando1 + operando2;
@@ -65,6 +65,7 @@ public class CalculadoraUTN {
         } // Fin switch
     } // Fin método ejecutarOperacion
 
+    
 } // Fin clase
 
 
