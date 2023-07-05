@@ -10,5 +10,11 @@ public class Persona {
 
     }
 
-
+    //Constructor con parametro(sobreacrga de constructores)
+    public Persona(String nombre, String tel, String email){
+        this();
+        this.nombre = nombre;
+        this.tel = tel;
+        this.email = email;
+    }
 }
