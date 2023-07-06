@@ -62,13 +62,17 @@ class Orden{
 
 let producto1 = new Producto('Pantalón', 200);
 let producto2 = new Producto('Camisa', 150);
-console.log(producto1.toString());
-console.log(producto2.ToString());
-
-
-
-
-
+let producto3 = new Producto('Cinturo', 50);
+let orden1 = new Orden();
+let orden2 = new Orden();
+orden1.agregarProducto(producto1);
+orden1.agregarProducto(producto2);
+orden1.agregarProducto(producto3);
+orden1.agregarProducto(producto1);
+orden1.agregarProducto(producto2);
+orden2.agregarProducto(producto3);
+orden1.mostrarOrden();
+orden2.mostrarOrden();
 
 
 
