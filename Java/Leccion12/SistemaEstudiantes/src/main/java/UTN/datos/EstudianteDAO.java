@@ -101,4 +101,12 @@ public class EstudianteDAO {
         }//Fin finally
         return false;
     }//Fin metodo agregarEstudiante
+
+    public static void main(String[] args){
+        //Listar los estudiantes
+        var estudianteDao = new EstudianteDAO();
+        System.out.println("Listado de estudiantes: ");
+        List<Estudiante> estudiantes = estudianteDao.listarEstudiante();
+        estudiantes.forEach(System.out::println); //Función Lambda para imprimir
+    }
 }
