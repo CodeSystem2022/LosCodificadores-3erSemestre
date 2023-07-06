@@ -52,9 +52,10 @@ Grupo de la Tecnicatura Universitaria en Programación de la Universidad Tecnol�
 | | **JAVA** |Agregamos finally y cathc | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarrren |
 | | **JAVASCRIPT** |Creación de constantes estáticas | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
 | | **PYTHON** | Comienzo de la creación clase personaDAO  | :x: Agustin Arenas | :heavy_check_mark: Cecilia Iribarren |
-
-
-
+| **9** | *Guillermo E. Quinteros* | **SEMANA COMPLETA** | **ESTA SEMANA NO HUBO REASIGNACIONES** | 
+| | **JAVA** | No hubo reasignaciones |
+| | **JAVASCRIPT** | No hubo reasignaciones |
+| | **PYTHON** | No hubo reasignaciones |
 
 
 
