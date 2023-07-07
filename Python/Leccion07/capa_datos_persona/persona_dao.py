@@ -1,3 +1,4 @@
+from Leccion07.capa_datos_persona.cursor_del_pool import CursorDelPool
 from capa_datos_persona.Persona import Persona
 from capa_datos_persona.conexion import Conexion
 from logger_base import log
@@ -20,33 +21,30 @@ class PersonaDAO:
     # Definimos los métodos de clases
     @classmethod
     def seleccionar(cls):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                cursor.execute(cls._SELECCIONAR)
-                registros = cursor.fetchall()
-                personas = [] #creamos una lista
-                for registro in registros:
-                    persona = Persona(registro[0], registro[1], registro[2], registro[3])
-                    personas.append(persona)
-                return personas
+        with CursorDelPool() as cursor:
+            cursor.execute(cls._SELECCIONAR)
+            registros = cursor.fetchall()
+            personas = [] #creamos una lista
+            for registro in registros:
+                persona = Persona(registro[0], registro[1], registro[2], registro[3])
+                personas.append(persona)
+            return personas
 
     @classmethod
     def insertar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email)
-                cursor.execute(cls._INSERTAR, valores)
-                log.debug(f'Persona Insertada: {persona}')
-                return cursor.rowcount
+        with CursorDelPool() as cursor:
+            valores = (persona.nombre, persona.apellido, persona.email)
+            cursor.execute(cls._INSERTAR, valores)
+            log.debug(f'Persona Insertada: {persona}')
+            return cursor.rowcount
 
     @classmethod
     def actualizar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
-                cursor.execute(cls._ACTUALIZAR, valores)
-                log.debug(f'Persona actualizada: {persona}')
-                return cursor.rowcount
+        with CursorDelPool() as cursor:
+            valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
+            cursor.execute(cls._ACTUALIZAR, valores)
+            log.debug(f'Persona actualizada: {persona}')
+            return cursor.rowcount
 
 
 if __name__ == '__main__':
