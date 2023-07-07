@@ -34,7 +34,7 @@
 
 
 class Orden{
-    static contadorOrdenes = =;
+    static contadorOrdenes = 0;
     static getMAX_PRODUCTOS(){
         return 5;
     }
@@ -58,6 +58,22 @@ class Orden{
             console.log('No se pueden agregar mas prodcutos');
         }
     }//Fin del metodo agregar productos
+
+    calcularTotal(){
+        let totalVenta = 0
+        for(const producto of this._productos){
+            totalVenta += producto.precio
+        }//Fin del ciclo for
+        return totalVenta
+    }//Fin del metodo calcular total
+
+    mostrarOrden(){
+        let productosOrden = ''
+        for(const producto of this._productos){
+            productosOrden += producto.toString() + ' '
+        }//Fin del ciclo for
+        console.log('Orden: ' + this._idOrden + ', Total: $' + this.calcularTotal() + ', Productos: ' + productosOrden)
+    }//Fin metodo mostrar orden
 }//Fin de la clase Orden
 
 let producto1 = new Producto('Pantalón', 200);
