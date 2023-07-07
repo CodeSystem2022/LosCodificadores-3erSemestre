@@ -1,6 +1,8 @@
 package UTN.datos;
 
 
+import UTN.dominio.Estudiante;
+
 public class EstudianteDAO {
     
 
@@ -10,7 +12,26 @@ public class EstudianteDAO {
 
 
 
+    //Metodo listar
+    public List<Estudiante> listar(){
 
+
+
+
+
+
+        String sql = "SELECT * FROM estudiantes ORDER BY estudiantes2022";
+        try{
+            ps = con.prepareStatement(sql);
+            rs = ps.executeQuery();
+            while(rs.next()){
+                var estudiante = new Estudiante();
+                estudiante.setIdEstudiante(rs.getInt("idestudiante2022"));
+            }
+        }catch(Exception e){
+            System.out.println("Ocurrio un error al seleccionar datos: " + e.getMessage());
+        }
+    }
 
 
 
