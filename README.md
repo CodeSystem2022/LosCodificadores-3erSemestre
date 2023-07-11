@@ -56,6 +56,10 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | | **JAVA** | No hubo reasignaciones |
 | | **JAVASCRIPT** | No hubo reasignaciones |
 | | **PYTHON** | No hubo reasignaciones |
+| **10** | *Guillermo E. Quinteros* | **SEMANA COMPLETA** | **ESTA SEMANA NO HUBO REASIGNACIONES** | 
+| | **JAVA** | No hubo reasignaciones |
+| | **JAVASCRIPT** | No hubo reasignaciones |
+| | **PYTHON** | No hubo reasignaciones |
 
 
 
