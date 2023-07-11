@@ -67,4 +67,11 @@ public class Persona {
 
 }
 
+    public static int getNumeroPersonas() {
+        return numeroPersonas;
+    }
+
+    public static void setNumeroPersonas(int numeroPersonas) {
+        Persona.numeroPersonas = numeroPersonas;
+    }
 
