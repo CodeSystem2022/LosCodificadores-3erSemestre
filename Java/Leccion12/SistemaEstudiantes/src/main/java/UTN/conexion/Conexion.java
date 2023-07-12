@@ -12,8 +12,11 @@ public class Conexion {
         var password = "admin";
 
         //cargamos la clase del driver de mysql en memoria
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        conexion = DriverManager.getConnection(url, usuario, password);
-
-    }
-}
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conexion = DriverManager.getConnection(url, usuario, password);
+        } cath (ClassNotFoundException | SQLException e){
+            system.out.println("Ocurrio un error en la conexion: "+e.getMessage());
+        }//Fin catch
+        return conexion;
+    }// Fin metodo Connection
