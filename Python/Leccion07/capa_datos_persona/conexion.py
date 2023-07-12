@@ -39,18 +39,16 @@ class Conexion:
                 return cls._pool
             except Exception as e:
                 log.error(f'Ocurrio un error al obtener el pool: {e}')
-                sys.exit
+                sys.exit()
         else:
             return cls._pool
-            
 
+    @classmethod
+    def liberarConexion(cls, conexion):
+        cls.obtenerPool().putconn(conexion)
+        log.debug(f'Regresamos la conexión del pool: {conexion}')
 
-
-
-
-
-
-@classmethod
+    @classmethod
     def cerrarConexiones(cls):
         cls.obtenerPool().closeall()
 
@@ -65,3 +63,4 @@ if __name__ == '__main__':
     conexion4 = Conexion.obtenerConexion()
     conexion5 = Conexion.obtenerConexion()
     conexion6 = Conexion.obtenerConexion()
+
