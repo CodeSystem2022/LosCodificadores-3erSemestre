@@ -63,7 +63,8 @@ Grupo de la Tecnicatura Universitaria en Programaci√≥n de la Universidad Tecnol√
 | **11** | *Aranibar Nicolas* | **SEMANA COMPLETA** | **ESTA SEMANA NO HUBO REASIGNACIONES**
 | | **JAVA** | No hubo reasignaciones  |
 | | **PYTHON** | No hubo reasignaciones  |
-
+| **12** | *Aranibar Nicolas* | **SEMANA COMPLETA** | **ESTA SEMANA NO HUBO REASIGNACIONES**
+| | **JAVA** | No hubo reasignaciones  |
 
 
 
