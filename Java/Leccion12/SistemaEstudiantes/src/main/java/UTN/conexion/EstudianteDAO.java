@@ -73,3 +73,12 @@ public class EstudianteDAO {
             } //Fin catch
         }//Fin finally
         return false;
+        //Buscar por id
+        var estudiante1 = new Estudiante(1);
+        System.out.printl("Estudiantes antes de la bsuqyeda: "+estudiante1);
+        var encontrado = EstudianteDAO.buscarEstudiantePorId(estudiante1);
+        if(encontrado)
+            System.out.printl("Estudiante encontrado: " +estudiante1);
+        else
+            System.out.printl("No se encontro el estudiante: "+estudiante1.getIdEstudiante());
+        
