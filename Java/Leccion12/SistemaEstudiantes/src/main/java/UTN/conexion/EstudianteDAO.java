@@ -61,24 +61,25 @@ public class EstudianteDAO {
                 estudiante.setTelefono(rs.getString("telefono"));
                 estudiante.setEmail(rs.getString("email"));
                 return true; //Se encontro un registro
-            }//Fin if
-        } catch (Exception e){
-            System.out.println("Ocurrio un error al buscar estudiante: "+e.getMessage());
-        }//Fin del catch
+                System.out.println("Ocurrio un error al buscar estudiante: "+e.getMessage());
+            }//Fin del catch
         finally {
-            try {
-                con.close();
+                try {
+                    con.close();
+                } catch (Exception e){
+                    System.out.println("Ocurrio un error al cerrar la conexion: "+e.getMessage());
+                }//Fin if
             } catch (Exception e){
-                System.out.println("Ocurrio un error al cerrar la conexion: "+e.getMessage());
             } //Fin catch
-        }//Fin finally
-        return false;
-        //Buscar por id
-        var estudiante1 = new Estudiante(1);
-        System.out.printl("Estudiantes antes de la bsuqyeda: "+estudiante1);
-        var encontrado = EstudianteDAO.buscarEstudiantePorId(estudiante1);
-        if(encontrado)
-            System.out.printl("Estudiante encontrado: " +estudiante1);
-        else
-            System.out.printl("No se encontro el estudiante: "+estudiante1.getIdEstudiante());
-        
+            }//Fin finally
+            return false;
+            //Buscar por id
+            var estudiante1 = new Estudiante(1);
+            System.out.printl("Estudiantes antes de la bsuqyeda: "+estudiante1);
+            var encontrado = EstudianteDAO.buscarEstudiantePorId(estudiante1);
+            if(encontrado)
+                System.out.printl("Estudiante encontrado: " +estudiante1);
+            else
+                System.out.printl("No se encontro el estudiante: "+estudiante1.getIdEstudiante());        }//Fin if
+        } catch (Exception e){
+
